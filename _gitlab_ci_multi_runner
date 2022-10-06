@@ -95,7 +95,7 @@ _gitlab_ci_multi_runner_register() {
   _arguments -s \
     '(- *)'{--help,-h}'[show help]' \
     '(-c --config)'{-c,--config}'[config file \[$CONFIG_FILE\]]:config file:_path_files -g "*(/) *.toml"' \
-    '--tag-list[Tag list \[$RUNNER_TAG_LIST\]] ' \
+    '--tag-list[Tag list \[$RUNNER_TAG_LIST\]]' \
     '(-n --non-interactive)'{-n,--non-interactive}'[Run registration unattended \[$REGISTER_NON_INTERACTIVE\]]' \
     '--leave-runner[Don''''t remove runner if registration fails \[$REGISTER_LEAVE_RUNNER\]]' \
     '(-r --registration-token)'{-r,--registration-token}'[Runner''''s registration token \[$REGISTRATION_TOKEN\]]' \
